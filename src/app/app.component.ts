@@ -20,7 +20,9 @@ export class AppComponent {
     this.counter++;
   }
 
-  htmlRender() {
+  htmlRender(input?: string) {
+    console.log(input);
+
     console.log('htmlRender');
     return '';
   }
